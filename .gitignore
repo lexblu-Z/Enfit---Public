@@ -1,10 +1,26 @@
-# Enfit Vitrine Pública - Git Ignore
-.DS_Store
-Thumbs.db
-*.tmp
-*.log
-*.bak
-*.swp
-*~
-.idea/
-.vscode/
+# ==============================================================================
+# ENFIT - VITRINE PÚBLICA (POLÍTICA DE ALLOWLIST ESTRITA)
+# ==============================================================================
+# Por padrão, bloqueia absolutamente todo e qualquer arquivo ou pasta.
+# Código-fonte, configurações internas, scripts e bancos de dados são PROIBIDOS.
+# ==============================================================================
+/*
+
+# Arquivos raiz explicitamente autorizados (apenas documentação e controle git)
+!.gitignore
+!README.md
+
+# Estrutura de diretórios autorizada
+!assets/
+assets/*
+!assets/screenshots/
+assets/screenshots/*
+
+# Lista estrita e individual dos 7 screenshots oficiais autorizados (sem wildcards)
+!assets/screenshots/01_treino_hoje.png
+!assets/screenshots/02_conclusao_treino.png
+!assets/screenshots/03_fichas_treino.png
+!assets/screenshots/04_historico.png
+!assets/screenshots/05_progresso.png
+!assets/screenshots/06_perfil_backup.png
+!assets/screenshots/07_player_musica.png
