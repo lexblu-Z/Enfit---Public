@@ -1,0 +1,10 @@
+# Enfit Vitrine Pública - Git Ignore
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+*.bak
+*.swp
+*~
+.idea/
+.vscode/
